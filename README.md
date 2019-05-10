@@ -51,6 +51,14 @@ Below is the basic structure for the project:
 </details>
 
 <details>
+<summary>Project</summary>
+
+![project-detail Image](./src/assets/images/project-detail.jpg?raw=true "project-detail Image")
+
+</details>
+
+
+<details>
 <summary>Contact</summary>
 
 ![contact Image](./src/assets/images/contact.jpg?raw=true "contact Image")
