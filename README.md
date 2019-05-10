@@ -32,6 +32,7 @@ Below is the basic structure for the project:
 <details>
 <summary>Homepage</summary>
 <br>
+
 ![homepage Image](./src/assets/images/homepage.jpg?raw=true "homepage Image")
 </details>
 
