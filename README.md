@@ -51,7 +51,7 @@ Below is the basic structure for the project:
 </details>
 
 <details>
-<summary>Project</summary>
+<summary>Project Detail</summary>
 
 ![project-detail Image](./src/assets/images/project-detail.jpg?raw=true "project-detail Image")
 

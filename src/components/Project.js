@@ -1,11 +1,15 @@
 import React from 'react';
 
-function Project() {
+function Project(props) {
 
 
   return (
-    <div>
-      Project Page Works
+    <div className="projectCard" style={{
+      backgroundImage: `url(${props.image}`
+    }}>
+      <h3>{props.title}</h3>
+      <p><em>{props.description}</em></p>
+      <p>{props.technologiesUsed}</p>
     </div>
   );
 }
