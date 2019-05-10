@@ -37,18 +37,41 @@ Below is the basic structure for the project:
 </details>
 
 
-Projects
+<details>
+<summary>Projects</summary>
+
 ![projects Image](./src/assets/images/projects.jpg?raw=true "projects Image")
-Project
+
+</details>
+
+
+<details>
+<summary>Project</summary>
+
 ![project Image](./src/assets/images/project.jpg?raw=true "project Image")
-Contact
+
+</details>
+
+<details>
+<summary>Contact</summary>
+
 ![contact Image](./src/assets/images/contact.jpg?raw=true "contact Image")
 
-About
+</details>
+
+<details>
+<summary>About</summary>
+
 ![about Image](./src/assets/images/about.jpg?raw=true "about Image")
-Navbar
+
+</details>
+
+<details>
+<summary>Navbar</summary>
+
 ![navbar Image](./src/assets/images/navbar.jpg?raw=true "navbar Image")
 
+</details>
 
 ## Available Scripts
 
