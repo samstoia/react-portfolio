@@ -1,17 +1,22 @@
 import React, { Component } from 'react'
-import { Switch, Route } from "react-router-dom";
-import Error404 from "./Error404";
+// import Error404 from "./Error404";
 import Homepage from './Homepage';
+import About from './About';
+import Projects from './Projects';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Switch>
-          <Route exact path="/" render={Homepage} />
-          <Route component={Error404} />
-        </Switch>
-      </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={Homepage} />
+          {/* <Route component={Error404} /> */}
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+        </div>
+      </Router>
+
     )
   }
 }
