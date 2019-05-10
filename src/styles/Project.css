@@ -1,0 +1,11 @@
+.projectCard {
+  display: inline-block;
+}
+.projectCard[style][background-image] {
+  height: 100px !important;
+}
+
+.projectCard img {
+  height: 300px;
+  width: 450px;
+}
