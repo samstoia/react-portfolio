@@ -29,8 +29,13 @@ Below is the basic structure for the project:
 
 ## Component Design
 
-Homepage
+<details>
+<summary>Homepage</summary>
+<br>
 ![homepage Image](./src/assets/images/homepage.jpg?raw=true "homepage Image")
+</details>
+
+
 Projects
 ![projects Image](./src/assets/images/projects.jpg?raw=true "projects Image")
 Project
