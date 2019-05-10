@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from './Project';
 
 function Projects() {
 
@@ -6,6 +7,7 @@ function Projects() {
   return (
     <div>
       Projects Works
+      <Project />
     </div>
   );
 }

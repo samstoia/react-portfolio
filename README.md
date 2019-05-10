@@ -19,11 +19,30 @@ The minimal viable product will include:
 - Sass? (Or just CSS)
 - Potentially a JS or css library to help with animations (Sequence.js?)
 
+## 
+
 ## Component Structure
 
 Below is the basic structure for the project:
 
 ![Structure Image](./src/assets/images/portfolio-structure.jpg?raw=true "Structure Image")
+
+## Component Design
+
+Homepage
+![homepage Image](./src/assets/images/homepage.jpg?raw=true "homepage Image")
+Projects
+![projects Image](./src/assets/images/projects.jpg?raw=true "projects Image")
+Project
+![project Image](./src/assets/images/project.jpg?raw=true "project Image")
+Contact
+![contact Image](./src/assets/images/contact.jpg?raw=true "contact Image")
+
+About
+![about Image](./src/assets/images/about.jpg?raw=true "about Image")
+Navbar
+![navbar Image](./src/assets/images/navbar.jpg?raw=true "navbar Image")
+
 
 ## Available Scripts
 
