@@ -57,7 +57,7 @@ function Projects() {
           description={project.description}
           technologiesUsed={project.technologiesUsed}
           image={project.image}
-          key={index}
+          id={index}
         />
       )}
     </div>
