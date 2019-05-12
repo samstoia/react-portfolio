@@ -1,0 +1,14 @@
+.gridContainer {
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill 4, 1fr);
+  grid-template-rows: 40px auto auto 40px;
+  grid-template-areas:
+    "n n n n"
+    ". z y ."
+    ". x v ."
+    ". u t ."
+    "b b b b";
+}
+

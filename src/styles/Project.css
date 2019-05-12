@@ -1,8 +1,5 @@
 .projectCard {
-  display: inline-block;
-}
-.projectCard[style][background-image] {
-  height: 100px !important;
+  display: inline;
 }
 
 .projectCard img {
