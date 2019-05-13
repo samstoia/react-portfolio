@@ -37,14 +37,15 @@ class Project extends React.Component {
           }
         }}>
           <div className="background" style={{ backgroundImage: `url(${this.props.image})` }}>
-            {this.state.isHovering ?
-              <div style={{ display: "inline-block" }}>
-                <h3>{this.props.title}</h3>
-                <p><em>{this.props.description}</em></p>
-                <p>{this.props.technologiesUsed}</p>
-              </div> : null}
           </div>
+
         </Link>
+        {this.state.isHovering ?
+          <div className="details" style={{ display: "inline-block" }}>
+            <h3>{this.props.title}</h3>
+            <p><em>{this.props.description}</em></p>
+            <p>{this.props.technologiesUsed}</p>
+          </div> : null}
 
 
       </div >

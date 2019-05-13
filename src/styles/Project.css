@@ -1,16 +1,29 @@
 .projectCard {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+  height: auto;
 }
 
 .projectCard img {
-  height: 300px;
-  width: 450px;
+  
+  
 }
 
 .background {
   min-height: 250px;
-  width: 350px;
+  min-width: 350px;
   background-size: cover;
   background-position: center;
 }
+
+.background:hover {
+  -webkit-filter: grayscale(90%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+

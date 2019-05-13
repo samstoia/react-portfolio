@@ -3,14 +3,17 @@
   height: 100%;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill 4, 1fr);
-  grid-template-rows: 40px auto auto auto 40px;
+  grid-template-columns: repeat(auto-fill 3, 1fr);
+  grid-template-rows: 40px auto auto auto auto auto auto40px;
   grid-template-areas:
-    "n n n n"
-    ". z y ."
-    ". x v ."
-    ". u t ."
-    "b b b b";
+  "n n n"
+  ". z ."
+  ". y ."
+  ". x ."
+  ". v ."
+  ". u ."
+  ". t ."
+  "b b b";
 }
 
 @media only screen and (max-width: 780px)  {
