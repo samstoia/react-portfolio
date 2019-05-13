@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Navbar from './Navbar';
-import Button from 'react-bootstrap/Button';
+// import Navbar from './Navbar';
+// import Button from 'react-bootstrap/Button';
 
 function Homepage() {
   return (

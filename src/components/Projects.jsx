@@ -8,9 +8,10 @@ import gamebuster from "../assets/images/gamebuster.PNG";
 import barbershop from "../assets/images/barbershop.PNG";
 import '../styles/Projects.css';
 
+
 let masterProjectList = [
   {
-    title: 'ConeAPalooza',
+    title: 'CloneAPalooza',
     description: 'App built in Angular',
     technologiesUsed: 'Angular, Firebase',
     image: cloneapalooza,
@@ -63,7 +64,9 @@ let masterProjectList = [
 function Projects() {
 
   return (
+
     <div className="gridContainer">
+
       {masterProjectList.map((project, index) =>
         <Project title={project.title}
           description={project.description}
@@ -74,7 +77,10 @@ function Projects() {
           gridarea={project.gridarea}
         />
       )}
+
     </div>
+
+
 
   );
 }

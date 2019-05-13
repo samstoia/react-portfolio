@@ -1,8 +1,16 @@
 .projectCard {
-  display: inline;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectCard img {
   height: 300px;
   width: 450px;
+}
+
+.background {
+  min-height: 250px;
+  width: 350px;
+  background-size: cover;
+  background-position: center;
 }

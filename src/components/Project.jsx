@@ -2,31 +2,54 @@ import React from 'react';
 import '../styles/Project.css';
 import { Link } from "react-router-dom";
 
+class Project extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isHovering: false,
+    }
+    this.onHover = this.onHover.bind(this);
+    this.onLeave = this.onLeave.bind(this);
+  };
 
-function Project(props) {
+  onHover = () => {
+    this.setState({ isHovering: true })
+  }
 
-  return (
-    <div className="projectCard" style={{
-      gridArea: `${props.gridarea}`
-    }} >
-      <Link to={{
-        pathname: `./projects/${props.id} `,
-        state: {
-          title: props.title,
-          description: props.description,
-          technologiesUsed: props.technologiesUsed,
-          image: props.image,
-          url: props.url
-        }
+  onLeave = () => {
+    this.setState({ isHovering: false })
+  }
+
+  render() {
+
+    return (
+      <div className="projectCard" onMouseOver={this.onHover} onMouseLeave={this.onLeave} style={{
+        gridArea: `${this.props.gridarea}`
       }}>
-        <img src={props.image} alt="project screenshot"></img>
-      </Link>
+        <Link to={{
+          pathname: `./projects/${this.props.id}`,
+          state: {
+            title: this.props.title,
+            description: this.props.description,
+            technologiesUsed: this.props.technologiesUsed,
+            image: this.props.image,
+            url: this.props.url
+          }
+        }}>
+          <div className="background" style={{ backgroundImage: `url(${this.props.image})` }}>
+            {this.state.isHovering ?
+              <div style={{ display: "inline-block" }}>
+                <h3>{this.props.title}</h3>
+                <p><em>{this.props.description}</em></p>
+                <p>{this.props.technologiesUsed}</p>
+              </div> : null}
+          </div>
+        </Link>
 
-      <h3>{props.title}</h3>
-      <p><em>{props.description}</em></p>
-      <p>{props.technologiesUsed}</p>
-    </div >
-  );
+
+      </div >
+    );
+  }
 }
 
 export default Project;
