@@ -1,17 +1,23 @@
 import React from 'react';
+import '../styles/ProjectDetail.css';
 
 const ProjectDetail = (props) => {
   let properties = props.location.state;
 
   return (
-    <div>
-      <div>
-        <a href={properties.url}><img src={properties.image} alt="project screenshot"></img></a>
+    <div className="projectDetailContainer">
+      <div className="imgDiv">
+        {/* <a href={properties.url}></img></a> */}
+        <img src={properties.image} alt="project screenshot" />
+      </div>
+      <div className="detailsDiv">
         <h3>{properties.title}</h3>
-        <p><em>{properties.description}</em></p>
-        <p>{properties.technologiesUsed}</p>
+
+        <p><em>{properties.technologiesUsed}</em></p>
+        <p>{properties.synopsis}</p>
       </div>
     </div>
+
   );
 }
 

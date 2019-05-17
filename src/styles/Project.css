@@ -5,14 +5,10 @@
   height: auto;
 }
 
-.projectCard img {
-  
-  
-}
-
 .background {
-  min-height: 250px;
-  min-width: 350px;
+  min-height: 350px;
+  max-height: 400px;
+  min-width: 450px;
   background-size: cover;
   background-position: center;
 }

@@ -1,0 +1,23 @@
+.projectDetailContainer {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-areas:
+  ". . . . . . . . . ."
+  ". i i i i . d d d ."
+  ". i i i i . d d d ."
+  ". i i i i . d d d ."
+  ". . . . . . . . . .";
+}
+
+.imgDiv {
+  /* display: inline-block; */
+  grid-area: i;
+  
+}
+
+.detailsDiv {
+  display: inline-block;
+  grid-area: d;
+}

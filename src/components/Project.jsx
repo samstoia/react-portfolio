@@ -33,7 +33,8 @@ class Project extends React.Component {
             description: this.props.description,
             technologiesUsed: this.props.technologiesUsed,
             image: this.props.image,
-            url: this.props.url
+            url: this.props.url,
+            synopsis: this.props.synopsis
           }
         }}>
           <div className="background" style={{ backgroundImage: `url(${this.props.image})` }}>
@@ -46,8 +47,6 @@ class Project extends React.Component {
             <p><em>{this.props.description}</em></p>
             <p>{this.props.technologiesUsed}</p>
           </div> : null}
-
-
       </div >
     );
   }
