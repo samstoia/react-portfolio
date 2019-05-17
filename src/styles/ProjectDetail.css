@@ -1,23 +1,43 @@
 .projectDetailContainer {
+  height: 100vh;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: 100px auto auto auto 100px;
   grid-template-areas:
   ". . . . . . . . . ."
-  ". i i i i . d d d ."
+  ". i i i i . . . . ."
   ". i i i i . d d d ."
   ". i i i i . d d d ."
   ". . . . . . . . . .";
+  grid-gap: 5px;
 }
 
 .imgDiv {
-  /* display: inline-block; */
+  display: inline-block;
   grid-area: i;
-  
+  background-size: cover;
+  background-position: center;
+  max-height: 80%;
+  min-height: 200px;
 }
 
 .detailsDiv {
   display: inline-block;
   grid-area: d;
 }
+
+@media only screen and (max-width: 800px)  {
+  .projectDetailContainer {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 40px auto auto auto   40px;
+      grid-template-areas:
+        ". . . ."
+        ". i i ."
+        ". i i ."
+        ". d d ."
+        ". . . .";
+    }
+  }
