@@ -7,6 +7,7 @@ import cloneapalooza from "../assets/images/cloneapalooza.PNG";
 import gamebuster from "../assets/images/gamebuster.PNG";
 import barbershop from "../assets/images/barbershop.PNG";
 import '../styles/Projects.css';
+import Navbar from './Navbar';
 
 
 let masterProjectList = [
@@ -71,6 +72,7 @@ function Projects() {
 
   return (
     <div className="wrapper">
+      <Navbar />
       <div className="pageTop">
         <h1>My Projects</h1>
       </div>
