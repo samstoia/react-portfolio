@@ -1,0 +1,94 @@
+
+.pageTop {
+  text-align: center;
+}
+
+.pageTop h3 {
+  font-size: 3em;
+}
+
+.about-grid {
+  height: 80vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 20px;
+  grid-template-areas:
+    ". b b b b b b b b b b ."
+    ". s s s s s s s s s s ."
+    ". t t t t t t t t t t .";
+}
+
+.whatIDo {
+  grid-area: b;
+
+}
+.backstory {
+  grid-area: s;
+
+}
+.otherStuff {
+  grid-area: t;
+}
+
+.imgBlock {
+  float: left;
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  
+}
+
+.imgBlockRight {
+  float: right;
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  
+}
+
+.imgBlock img {
+  width: 100%;
+  max-height:
+}
+
+.imgBlockRight img {
+  width: 100%;
+  max-height:
+}
+
+.textBlock{
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+}
+
+.textBlockRight{
+  display: inline-block;
+  height: 100%;
+  width: 40%;
+}
+
+.imgBlock h1{
+  position: absolute;
+  color: white;
+  font-size: 4vw;
+}
+
+.imgBlockRight h1{
+  float: right;
+  position: absolute;
+  color: white;
+  font-size: 4vw;
+}
+
+.textBlock p{
+  padding-left: 10px;
+  font-size: 2vw;
+}
+
+.textBlockRight p{
+  padding-right: 10px;
+  font-size: 2vw;
+}
+          
