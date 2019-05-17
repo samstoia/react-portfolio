@@ -6,14 +6,35 @@ import '../styles/Homepage.css';
 function Homepage() {
   return (
 
-    <div className="hero-image">
+    <div className="page-container">
+      <div className="triangleContainer">
 
-      <div >
-        Homepage Works
+        <div className="triangle">
+          <h2>My Work</h2>
+        </div>
+      </div>
+
+      <div className="triangleContainer">
+
+        <div className="triangle">
+          <h2>My Work</h2>
+        </div>
+      </div>
+
+      <div className="triangleContainer">
+
+        <div className="triangle">
+          <h2>My Work</h2>
+        </div>
+      </div>
+
+
+      <div>
         <Link to="/about">About Link</Link>
         <Link to="/projects">Projects Link</Link>
         <Link to="/contact">Contact Link</Link>
       </div>
+
 
     </div>
   );
