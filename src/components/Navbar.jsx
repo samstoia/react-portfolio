@@ -6,18 +6,18 @@ function Navbar() {
   return (
     <div>
 
-      <div class="nav-container">
+      <div className="nav-container">
         <nav>
           <FaBars />
           <input type="checkbox" id="nav-toggle" />
-          <label for="nav-toggle" class="burger-menu">
+          <label htmlFor="nav-toggle" className="burger-menu">
 
           </label>
-          <div class="center-menu">
-            <a class="logo">Sam Stoia</a>
+          <div className="center-menu">
+            <a href="/">Sam Stoia</a>
           </div>
 
-          <div class="right-menu">
+          <div className="right-menu">
             <FaGithubSquare />
             <FaLinkedin />
           </div>
