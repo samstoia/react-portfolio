@@ -8,9 +8,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 40px auto 40px;
+  grid-template-rows: auto 40px;
   grid-template-areas:
-    "n n n n"
     ". f f ."
     "b b b b";
 }
@@ -19,10 +18,6 @@
   text-align: left !important;
 }
 
-.navbarDiv {
-  grid-area: n;
-  background-color: black;
-}
 
 
 .bottomDiv{

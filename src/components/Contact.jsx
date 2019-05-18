@@ -2,18 +2,16 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../styles/Contact.css';
+import Navbar from './Navbar';
 
 
 
 function Contact() {
   return (
     <div>
-
-
+      <Navbar />
       <div className="pageContainer">
-        <div className="navbarDiv">
 
-        </div>
         <div className="formContainer">
           <div>
             <h2>Contact Me</h2>

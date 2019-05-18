@@ -3,11 +3,12 @@ import '../styles/About.css'
 import newsImage from './../assets/images/news.jpg';
 import mountains from './../assets/images/mountains.jpg';
 import coding from "./../assets/images/coding.png"
+import Navbar from './Navbar';
 
 function About() {
   return (
     <div className="page-wrapper">
-
+      <Navbar />
       <div className="about-grid">
         <div className="whatIDo">
 

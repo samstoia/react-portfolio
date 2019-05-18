@@ -9,10 +9,10 @@ body, html{
   background-repeat:no-repeat;
   background-size: cover;
   text-align: center;
-  background-position: center, center;
+  /* background-position: center, center; */
 }
 
-.triangleContainer {
+/* .triangleContainer {
   text-align: center;
   display: inline-block;
 }
@@ -26,14 +26,14 @@ body, html{
   border-color: transparent transparent black transparent;
   display: inline-block;
   position: relative;
-}
+} */
 
 #root {
   height: 100%
 }
 
-@media only screen and (max-width: 950px)  {
-  .hero-image {
+@media only screen and (max-width: 1200px)  {
+  .page-container {
       background-position: center center;
     }
   }

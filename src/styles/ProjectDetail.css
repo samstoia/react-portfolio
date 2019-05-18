@@ -27,11 +27,11 @@
   grid-area: d;
 }
 
-@media only screen and (max-width: 800px)  {
+@media only screen and (max-width: 1200px)  {
   .projectDetailContainer {
       height: 100vh;
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: .5fr 1fr 1fr .5fr;
       grid-template-rows: 40px auto auto auto   40px;
       grid-template-areas:
         ". . . ."

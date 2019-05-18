@@ -8,18 +8,25 @@ function Navbar() {
 
       <div className="nav-container">
         <nav>
-          <FaBars />
-          <input type="checkbox" id="nav-toggle" />
-          <label htmlFor="nav-toggle" className="burger-menu">
+          <div className="left-menu">
+            <FaBars />
+            <input type="checkbox" id="nav-toggle" />
+            <label htmlFor="nav-toggle" className="burger-menu">
 
-          </label>
+            </label>
+          </div>
+
           <div className="center-menu">
             <a href="/">Sam Stoia</a>
           </div>
 
           <div className="right-menu">
-            <FaGithubSquare />
-            <FaLinkedin />
+            <div className="iconDiv">
+              <a href="https://github.com/samstoia"><FaGithubSquare /></a>
+            </div>
+            <div className="iconDiv">
+              <a href="https://www.linkedin.com/in/samuel-stoia/"><FaLinkedin /></a>
+            </div>
           </div>
         </nav>
       </div>
