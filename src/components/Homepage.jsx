@@ -7,31 +7,19 @@ function Homepage() {
   return (
 
     <div className="page-container">
-      <div className="triangleContainer">
-
-        <div className="triangle">
-          <h2>My Work</h2>
-        </div>
+      <div className="description">
+        <h3>Developer.  Creator.</h3>
       </div>
 
-      <div className="triangleContainer">
-
-        <div className="triangle">
-          <h2>My Work</h2>
-        </div>
-      </div>
-
-      <div className="triangleContainer">
-
-        <div className="triangle">
-          <h2>My Work</h2>
-        </div>
-      </div>
-
-
-      <div>
-        <Link to="/about">About Link</Link>
+      <div className="projects">
         <Link to="/projects">Projects Link</Link>
+      </div>
+
+      <div className="about">
+        <Link to="/about">About Link</Link>
+      </div>
+
+      <div className="contact">
         <Link to="/contact">Contact Link</Link>
       </div>
 
