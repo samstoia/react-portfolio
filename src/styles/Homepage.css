@@ -12,12 +12,13 @@ body, html{
   /* background-position: center, center; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows:  25% 10% 10% 10% 40px;
+  grid-template-rows:  25% 10% 10% 10% 10% 40px;
   grid-template-areas:
     ". . . . . ."
     ". . d d . ."
     ". . p p . ."
     ". . c a . ."
+    ". . m m . ."
     ". . . . . .";
     color: white;
     grid-gap: 5px;
@@ -72,4 +73,17 @@ body, html{
 .about:hover, .contact:hover, .projects:hover {
   background-color: white;
   color: black;
+}
+
+.social {
+  grid-area: m;
+}
+
+.socialDiv {
+  display: inline-block;
+  padding: 20px;
+}
+
+svg:hover {
+  color: yellow;
 }
