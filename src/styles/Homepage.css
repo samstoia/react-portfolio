@@ -58,7 +58,7 @@ body, html{
   height: 100%
 }
 
-@media only screen and (max-width: 1200px)  {
+@media only screen and (max-width: 1640px)  {
   .page-container {
       background-position: center center;
     }
