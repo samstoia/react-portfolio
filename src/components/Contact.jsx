@@ -17,23 +17,24 @@ function Contact() {
             <h2>Contact Me</h2>
             <p>If you want to reach me about a job or a past project, please fill out the form below.</p>
           </div>
-          <Form>
-            <Form.Group controlId="emailInput">
+          <Form action='./send.php' method="POST">
+            <Form.Group>
               <Form.Label>Your Email address</Form.Label>
-              <Form.Control type="email" placeholder="name@example.com" required />
+              <Form.Control name="email" id="email" type="email" placeholder="name@example.com" required />
             </Form.Group>
-            <Form.Group controlId="reasonInput">
+            <Form.Group>
               <Form.Label>What is this about?</Form.Label>
-              <Form.Control type="text" placeholder="Why are you contacting me?" required />
+              <Form.Control name="subject" id="subject" type="text" placeholder="Why are you contacting me?" required />
             </Form.Group>
-            <Form.Group controlId="descriptionInput">
+            <Form.Group>
               <Form.Label>Describe request in-depth:</Form.Label>
-              <Form.Control as="textarea" rows="3" required />
+              <Form.Control name="message" id="message" as="textarea" rows="3" required />
             </Form.Group>
             <div className="buttonDiv">
-              <Button variant="primary" type="submit">
+              <Button name="submit" variant="primary" type="submit" id="submit" value="submit">
                 Submit
               </Button>
+
             </div>
           </Form>
         </div>

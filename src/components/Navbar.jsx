@@ -1,19 +1,15 @@
 import React from 'react';
 import '../styles/Navbar.css';
 import { FaBars, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import Sidebar from './Sidebar';
 
 function Navbar() {
   return (
     <div>
-
       <div className="nav-container">
         <nav>
           <div className="left-menu">
-            <FaBars />
-            <input type="checkbox" id="nav-toggle" />
-            <label htmlFor="nav-toggle" className="burger-menu">
-
-            </label>
+            <Sidebar />
           </div>
 
           <div className="center-menu">
