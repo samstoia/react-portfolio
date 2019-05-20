@@ -11,32 +11,42 @@ body, html{
   text-align: center;
   /* background-position: center, center; */
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-template-rows:  40px auto 20% auto auto 40px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows:  25% 10% 10% 10% 40px;
   grid-template-areas:
-    ". . . . . . ."
-    ". . d d d . ."
-    ". . p p p . ."
-    ". . . a . . ."
-    ". . . c . . ."
-    ". . . . . . .";
+    ". . . . . ."
+    ". . d d . ."
+    ". . p p . ."
+    ". . c a . ."
+    ". . . . . .";
+    color: white;
+    grid-gap: 5px;
 }
 
 .projects {
-  height: 100%;
-  min-height: 100px;
+  height: 70%;
+  min-height: 50px;
   width: 100%;
-  border: 1px solid rgb(255, 255, 255, .2);
+  border: 1px solid rgb(255, 255, 255, .3);
+  border-radius: 10px;
   grid-area: p;
 }
 
 .description {
   grid-area: d;
+  
+}
+
+.about, .contact {
+  height: 40%;
+  min-height: 50px;
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255, .3);
+  border-radius: 10px;
 }
 
 .about {
   grid-area: a;
-
 }
 
 .contact {
@@ -53,3 +63,13 @@ body, html{
     }
   }
 
+.page-container a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+.about:hover, .contact:hover, .projects:hover {
+  background-color: white;
+  color: black;
+}

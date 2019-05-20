@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-// import Button from 'react-bootstrap/Button';
 import '../styles/Homepage.css';
 
 function Homepage() {
@@ -8,20 +6,26 @@ function Homepage() {
 
     <div className="page-container">
       <div className="description">
-        <h3>Developer.  Creator.</h3>
+        <h2>Developer.  Creator.</h2>
       </div>
 
-      <div className="projects">
-        <Link to="/projects">Projects Link</Link>
-      </div>
+      <a className="projects" href="/projects">
+        <div >
+          Projects
+        </div>
+      </a>
 
-      <div className="about">
-        <Link to="/about">About Link</Link>
-      </div>
+      <a className="about" href="/about">
+        <div>
+          About
+        </div>
+      </a>
 
-      <div className="contact">
-        <Link to="/contact">Contact Link</Link>
-      </div>
+      <a className="contact" href="/contact">
+        <div>
+          Contact
+        </div>
+      </a>
 
 
     </div>

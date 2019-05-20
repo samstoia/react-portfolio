@@ -35,9 +35,8 @@
 .imgBlock {
   float: left;
   display: inline-block;
-  height: 100%;
   width: 60%;
-  
+  height: 100%;
 }
 
 .imgBlockRight {
@@ -54,6 +53,7 @@
 
 .imgBlockRight img {
   width: 100%;
+  
 }
 
 .textBlock{

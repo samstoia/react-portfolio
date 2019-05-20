@@ -11,7 +11,6 @@ function About() {
       <Navbar />
       <div className="about-grid">
         <div className="whatIDo">
-
           <div className="textBlock">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, similique hic? Quasi dolor ad earum repellat, alias ducimus voluptatum a nam odio, quis cum. Dicta libero quaerat aliquam. Porro, voluptate obcaecati. Veniam quia alias animi nihil accusantium veritatis in nesciunt?
