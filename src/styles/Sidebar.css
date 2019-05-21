@@ -68,3 +68,8 @@
 .bm-burger-button {
   margin-left: 10px;
 }
+
+.name {
+  position: fixed;
+  top: 10px;
+}

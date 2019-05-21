@@ -16,11 +16,17 @@ const ProjectDetail = (props) => {
         </div>
 
         <div className="detailsDiv">
-          <h3>{properties.title}</h3>
+          <div className="titleDiv">
+            <h3>{properties.title}</h3>
+            <p><em>{properties.technologiesUsed}</em></p>
+          </div>
 
-          <p><em>{properties.technologiesUsed}</em></p>
-          <p>{properties.synopsis}</p>
-          <a href={properties.url}><Button>Go To Project Page</Button></a>
+          <div className="synopsisDiv">
+            <p>{properties.synopsis}</p>
+          </div>
+          <div className="buttonDiv">
+            <a href={properties.url}><Button>Go To Project Page</Button></a>
+          </div>
         </div>
       </div >
     </div>

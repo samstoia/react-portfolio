@@ -6,9 +6,9 @@
   grid-template-rows: 100px auto auto auto 100px;
   grid-template-areas:
   ". . . . . . . . . ."
-  ". i i i i . . . . ."
-  ". i i i i . d d d ."
-  ". i i i i . d d d ."
+  ". i i i i i . . . ."
+  ". i i i i i d d d ."
+  ". i i i i i . . . ."
   ". . . . . . . . . .";
   grid-gap: 5px;
 }
@@ -19,26 +19,44 @@
   background-size: cover;
   background-position: center;
   max-height: 80%;
-  min-height: 200px;
-  width: 100%;
+  min-height: 100px;
+  width: 100%; 
 }
 
 .detailsDiv {
   display: inline-block;
   grid-area: d;
+  margin-left: 20px;
 }
 
-@media only screen and (max-width: 1200px)  {
+.titleDiv {
+  display: inline-block;
+  margin-right: 10px;
+}
+.buttonDiv {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 20%;
+}
+
+.buttonDiv Button {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1300px)  {
   .projectDetailContainer {
       height: 100vh;
       display: grid;
       grid-template-columns: .5fr 1fr 1fr .5fr;
-      grid-template-rows: 40px auto auto auto   40px;
+      grid-template-rows: 40px auto auto auto  40px;
       grid-template-areas:
-        ". . . ."
-        ". i i ."
-        ". i i ."
-        ". d d ."
-        ". . . .";
+        " . . . ."
+        " . i i ."
+        " . i i ."
+        " . d d ."
+        " . . . .";
     }
+
   }

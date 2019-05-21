@@ -6,6 +6,7 @@ import Projects from './Projects';
 import ProjectDetail from './ProjectDetail';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Contact from './Contact';
+import '../styles/App.css';
 
 class App extends Component {
   render() {

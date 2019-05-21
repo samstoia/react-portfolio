@@ -13,7 +13,7 @@ function Navbar() {
           </div>
 
           <div className="center-menu">
-            {/* <a href="/">Sam Stoia</a> */}
+            <a href="/">Sam Stoia's Portfolio</a>
           </div>
 
           <div className="right-menu">

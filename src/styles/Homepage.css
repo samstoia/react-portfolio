@@ -12,10 +12,10 @@ body, html{
   /* background-position: center, center; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows:  25% 10% 10% 10% 10% 40px;
+  grid-template-rows: 15% 15% 10% 10% 10% 40px;
   grid-template-areas:
     ". . . . . ."
-    ". . d d . ."
+    ". d d d d ."
     ". . p p . ."
     ". . c a . ."
     ". . m m . ."
@@ -31,12 +31,10 @@ body, html{
   border: 1px solid rgb(255, 255, 255, .3);
   border-radius: 10px;
   grid-area: p;
-  margin: 5px;
 }
 
 .description {
   grid-area: d;
-  
 }
 
 .about, .contact {
@@ -49,11 +47,9 @@ body, html{
 
 .about {
   grid-area: a;
-  margin: 5px;
 }
 
 .contact {
-  margin: 5px;
   grid-area: c;
 }
 
@@ -61,7 +57,7 @@ body, html{
   height: 100%
 }
 
-@media only screen and (max-width: 1640px)  {
+@media only screen and (max-width: 1200px)  {
   .page-container {
       background-position: center center;
     }
@@ -91,3 +87,20 @@ body, html{
 svg:hover {
   color: yellow;
 }
+
+@media only screen and (max-width: 825px)  {
+  .page-container {
+    grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 15% 15% 10% 10% 10% 40px;
+  grid-template-areas:
+    ". . . ."
+    ". d d ."
+    ". p p ."
+    ". c c ."
+    ". a a ."
+    ". m m .";
+    color: white;
+    grid-gap: 5px;
+    }
+
+  }

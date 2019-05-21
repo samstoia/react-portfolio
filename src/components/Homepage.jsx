@@ -7,6 +7,7 @@ function Homepage() {
 
     <div className="page-container">
       <div className="description">
+        <h1>Sam Stoia</h1>
         <h2>Developer.  Creator.</h2>
       </div>
 

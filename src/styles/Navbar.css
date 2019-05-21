@@ -1,7 +1,7 @@
 .nav-container {
   background-color: black;
   width: 100%;
-  /* position: fixed; */
+
   right: 0;
   z-index: 1;
   height: 40px;
@@ -9,8 +9,6 @@
 }
 
 nav {
-  /* max-width: 1720px; */
-  /* margin: 0 auto; */
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   grid-template-areas:
@@ -24,6 +22,7 @@ nav {
 
 .center-menu {
   grid-area: b;
+  font-size: 1.3rem;
 }
 
 .right-menu {
@@ -36,7 +35,6 @@ nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
 }
 
 
