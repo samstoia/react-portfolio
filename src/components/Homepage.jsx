@@ -12,7 +12,7 @@ function Homepage() {
       </div>
 
       <a className="projects" href="/projects">
-        <div >
+        <div style={{ verticalAlign: "center" }}>
           Projects
         </div>
       </a>

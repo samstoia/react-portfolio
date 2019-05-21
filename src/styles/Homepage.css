@@ -31,7 +31,10 @@ body, html{
   border: 1px solid rgb(255, 255, 255, .3);
   border-radius: 10px;
   grid-area: p;
-  line-height: 200%;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
 }
 
 .description {
@@ -44,6 +47,10 @@ body, html{
   width: 100%;
   border: 1px solid rgb(255, 255, 255, .3);
   border-radius: 10px;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
 }
 
 .about {
