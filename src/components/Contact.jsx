@@ -3,25 +3,24 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../styles/Contact.css';
 import Navbar from './Navbar';
-import firebaseConfig from '../config';
+import {apiKey, authDomain, databaseURL, storageBucket, messagingSenderId, appId} from '../config';
+
 import Firebase from 'firebase';
 const uuidv4 = require('uuid/v4');
 require('dotenv').config();
 
 
 
+
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    Firebase.initializeApp(firebaseConfig);
-
+    Firebase.initializeApp({apiKey, authDomain, databaseURL, storageBucket, messagingSenderId, appId});
     this.state = {
-      message: []
-      // subject: null,
-      // message: null,
-      // id: null,
+      message: [],
+      submitted: false,
     }
-
+    this.handleSubmit = this.handleSubmit.bind(this);
     this.writeUserData = this.writeUserData.bind(this);
   }
 
@@ -30,6 +29,7 @@ class Contact extends React.Component {
       this.writeUserData();
     }
   }
+ 
 
   writeUserData = () => {
     Firebase.database().ref('/').child('submission/').push(this.state.message);
@@ -39,9 +39,9 @@ class Contact extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
-    let email = this.refs.email.value;
-    let subject = this.refs.subject.value;
-    let message = this.refs.message.value;
+    let email = "email: " + this.refs.email.value;
+    let subject = "subject: " + this.refs.subject.value;
+    let message = "message: " + this.refs.message.value;
     let id = uuidv4();
 
 
@@ -56,6 +56,7 @@ class Contact extends React.Component {
     this.refs.email.value = '';
     this.refs.subject.value = '';
     this.refs.message.value = '';
+    alert(`Thanks for your message, I'll get in touch at your ${email} shortly`)
   }
   render() {
     return (
@@ -85,18 +86,15 @@ class Contact extends React.Component {
                 <Button name="submit" variant="primary" type="submit" id="submit" value="submit">
                   Submit
               </Button>
-
+              
               </div>
             </Form>
-          </div>
 
-          <div className="bottomDiv">
-            <p>&#169; Sam Stoia</p>
-          </div>
-        </div >
-
+        </div>
+        
+        
       </div>
-
+    </div>
     )
   }
 }

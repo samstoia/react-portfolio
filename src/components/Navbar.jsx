@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import { FaBars, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import Sidebar from './Sidebar';
 
 function Navbar() {

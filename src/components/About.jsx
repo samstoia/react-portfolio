@@ -13,7 +13,7 @@ function About() {
         <div className="whatIDo">
           <div className="textBlock">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, similique hic? Quasi dolor ad earum repellat, alias ducimus voluptatum a nam odio, quis cum. Dicta libero quaerat aliquam. Porro, voluptate obcaecati. Veniam quia alias animi nihil accusantium veritatis in nesciunt?
+              In short, I build stuff.  From my time at the Epicodus bootcamp in Seattle, I learned how to build dynamic we applications in JavaScript, C#, and TypeScript.  I've built using .NET Core, Angular, and React.  I've learned to create and manage a database using SQL, and use REST APIs.  My skills are literally growing from day to day.
             </p>
           </div>
           <div className="imgBlock">
@@ -31,7 +31,7 @@ function About() {
 
           <div className="textBlockRight">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, similique hic? Quasi dolor ad earum repellat, alias ducimus voluptatum a nam odio, quis cum. Dicta libero quaerat aliquam. Porro, voluptate obcaecati. Veniam quia alias animi nihil accusantium veritatis in nesciunt?
+              I cut my teeth in the world of journalism.  After spending nearly a decade as a news producer, I decided it was time to change up.  I never thought there would be a time that I would be standing in front of a white board discussing the time complexity of a recursive function, but here we are.  It's a good feeling.
             </p>
           </div>
         </div>
@@ -43,7 +43,7 @@ function About() {
 
           <div className="textBlock">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, similique hic? Quasi dolor ad earum repellat, alias ducimus voluptatum a nam odio, quis cum. Dicta libero quaerat aliquam. Porro, voluptate obcaecati. Veniam quia alias animi nihil accusantium veritatis in nesciunt?
+              My other passions include hiking and mountaineering, firing up my smoker to bbq some meat, and writing.  I hope to one day find my way back to the world of journalism with my new skills in tech to help the industry stay relevant in this brave new world.
             </p>
           </div>
 
