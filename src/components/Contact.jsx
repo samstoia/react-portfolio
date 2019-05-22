@@ -5,8 +5,8 @@ import '../styles/Contact.css';
 import Navbar from './Navbar';
 import firebaseConfig from '../config';
 import Firebase from 'firebase';
-
-
+const uuidv4 = require('uuid/v4');
+require('dotenv').config();
 
 
 
@@ -16,9 +16,10 @@ class Contact extends React.Component {
     Firebase.initializeApp(firebaseConfig);
 
     this.state = {
-      email: '',
-      subject: '',
-      message: '',
+      message: []
+      // subject: null,
+      // message: null,
+      // id: null,
     }
 
     this.writeUserData = this.writeUserData.bind(this);
@@ -31,23 +32,26 @@ class Contact extends React.Component {
   }
 
   writeUserData = () => {
-    Firebase.database().ref('/').set(this.state);
+    Firebase.database().ref('/').child('submission/').push(this.state.message);
     console.log('DATA SAVED');
   }
+
 
   handleSubmit = (event) => {
     event.preventDefault();
     let email = this.refs.email.value;
     let subject = this.refs.subject.value;
     let message = this.refs.message.value;
+    let id = uuidv4();
 
 
     if (email && subject && message) {
+      if (this.state.message.length > 0) {
+        this.state.message = [];
+      }
       const newState = Object.assign({}, this.state)
-      newState.email = email;
-      newState.subject = subject;
-      newState.message = message;
-      this.setState({ newState });
+      newState.message.push(email, subject, message, id)
+      this.setState({ state: newState });
     }
     this.refs.email.value = '';
     this.refs.subject.value = '';
