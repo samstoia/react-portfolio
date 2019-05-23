@@ -1,6 +1,6 @@
 # Sam Stoia Portfolio
 
-This is my Capstone project, which will be my final piece of work for the Epicodus bootcamp.  In this portfolio, I want to use my front-end abilities and combine them with some new tools to create a great UI where users will be able to see my projects and learn more about me.
+This is my Capstone project, which will be my final piece of work for the Epicodus bootcamp.  In this portfolio, I want to use my front-end abilities and combine them with some new tools to create a great UI where users will be able to see my projects, contact me, and learn more about me. In future versions, I want to use this project as a way to learn more about the full stack, using the MERN stack.
 
 ## Project Description
 
@@ -16,8 +16,8 @@ The minimal viable product will include:
 - React
 - React Router
 - npm
-- Sass? (Or just CSS)
-- Potentially a JS or css library to help with animations (Sequence.js?)
+- CSS Grid
+- Firebase
 
 ## Component Structure
 
@@ -89,11 +89,6 @@ Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
