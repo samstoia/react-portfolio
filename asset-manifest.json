@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.9915a239.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.159e4c8a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.159e4c8a.chunk.js.map",
+    "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
+    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
+    "static/js/2.402db8d8.chunk.js": "/react-portfolio/static/js/2.402db8d8.chunk.js",
+    "static/js/2.402db8d8.chunk.js.map": "/react-portfolio/static/js/2.402db8d8.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.9a64f1ee548c642512f95b060fdd71e6.js": "/react-portfolio/precache-manifest.9a64f1ee548c642512f95b060fdd71e6.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.9915a239.chunk.css.map": "/react-portfolio/static/css/main.9915a239.chunk.css.map",
+    "static/media/Homepage.css": "/react-portfolio/static/media/background.e594ec00.png",
+    "static/media/barbershop.PNG": "/react-portfolio/static/media/barbershop.d2a20104.PNG",
+    "static/media/cloneapalooza.PNG": "/react-portfolio/static/media/cloneapalooza.9e2a119d.PNG",
+    "static/media/coding.png": "/react-portfolio/static/media/coding.60871687.png",
+    "static/media/epiceats.PNG": "/react-portfolio/static/media/epiceats.10070ca8.PNG",
+    "static/media/gamebuster.PNG": "/react-portfolio/static/media/gamebuster.3487c48e.PNG",
+    "static/media/goleir.PNG": "/react-portfolio/static/media/goleir.d5318306.PNG",
+    "static/media/mountains.jpg": "/react-portfolio/static/media/mountains.c66acb6a.jpg",
+    "static/media/news.jpg": "/react-portfolio/static/media/news.64045d71.jpg",
+    "static/media/taproom.PNG": "/react-portfolio/static/media/taproom.357e3f5d.PNG"
+  }
+}
