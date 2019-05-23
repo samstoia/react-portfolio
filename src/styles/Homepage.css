@@ -1,9 +1,11 @@
 body, html{
   height: 100%;
+  min-height: 550px;
   margin-bottom: 0 !important;
 }
 
 .page-container {
+  
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/background.png");
   height: 100%;
   background-repeat:no-repeat;
@@ -88,6 +90,7 @@ body, html{
 }
 
 .socialDiv {
+  
   display: inline-block;
   padding: 20px;
 }
@@ -99,7 +102,7 @@ svg:hover {
 @media only screen and (max-width: 825px)  {
   .page-container {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 15% 15% 8% 6% 6% 40px;
+    grid-template-rows: 15% 15% 8% 6% 6% auto;
     grid-template-areas:
       ". . . ."
       ". d d ."
