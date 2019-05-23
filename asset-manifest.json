@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9915a239.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.7f1649bf.chunk.css",
     "main.js": "/react-portfolio/static/js/main.159e4c8a.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.159e4c8a.chunk.js.map",
     "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
@@ -8,9 +8,9 @@
     "static/js/2.402db8d8.chunk.js": "/react-portfolio/static/js/2.402db8d8.chunk.js",
     "static/js/2.402db8d8.chunk.js.map": "/react-portfolio/static/js/2.402db8d8.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.9a64f1ee548c642512f95b060fdd71e6.js": "/react-portfolio/precache-manifest.9a64f1ee548c642512f95b060fdd71e6.js",
+    "precache-manifest.5eb864f1f017f30847897cf5b7656f77.js": "/react-portfolio/precache-manifest.5eb864f1f017f30847897cf5b7656f77.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.9915a239.chunk.css.map": "/react-portfolio/static/css/main.9915a239.chunk.css.map",
+    "static/css/main.7f1649bf.chunk.css.map": "/react-portfolio/static/css/main.7f1649bf.chunk.css.map",
     "static/media/Homepage.css": "/react-portfolio/static/media/background.e594ec00.png",
     "static/media/barbershop.PNG": "/react-portfolio/static/media/barbershop.d2a20104.PNG",
     "static/media/cloneapalooza.PNG": "/react-portfolio/static/media/cloneapalooza.9e2a119d.PNG",
