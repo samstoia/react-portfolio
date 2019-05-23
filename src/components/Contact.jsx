@@ -7,8 +7,6 @@ import {apiKey, authDomain, databaseURL, storageBucket, messagingSenderId, appId
 
 import Firebase from 'firebase';
 const uuidv4 = require('uuid/v4');
-require('dotenv').config();
-
 
 
 
@@ -18,7 +16,6 @@ class Contact extends React.Component {
     Firebase.initializeApp({apiKey, authDomain, databaseURL, storageBucket, messagingSenderId, appId});
     this.state = {
       message: [],
-      submitted: false,
     }
     this.handleSubmit = this.handleSubmit.bind(this);
     this.writeUserData = this.writeUserData.bind(this);

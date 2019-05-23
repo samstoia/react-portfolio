@@ -64,3 +64,23 @@
     }
 
   }
+
+  @media only screen and (max-width: 600px)  {
+    .projectDetailContainer {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: .5fr 1fr 1fr .5fr;
+        grid-template-rows: 40px auto auto auto  40px;
+        grid-template-areas:
+          " . . . ."
+          " . i i ."
+          " . d d ."
+          " . . . ."
+          " . . . .";
+      }
+  
+      .detailsDiv {
+        margin-left: 0px;
+      }
+  
+    }
